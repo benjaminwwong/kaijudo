@@ -12,3 +12,8 @@ For our community Kaijudo decks.
   - commit the changes with ```git commit -m```"commit message"
   - synch the new changes with ```git push```
 
+# Terminal Cheatsheet (Mac, Linux)
+
+1. Use ```cd target_folder``` to navigate the terminal and ```cd ..``` to go back a folder.
+2. Use ```ls``` to list the contents of a folder.
+3. Use ```mv deckname.* target_folder``` to move deck object data.
