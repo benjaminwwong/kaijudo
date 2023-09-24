@@ -1,0 +1,2459 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "26f44c",
+      "Name": "Deck",
+      "Transform": {
+        "posX": -8.216447,
+        "posY": 1.17349243,
+        "posZ": 8.630358,
+        "rotX": -5.8013903E-08,
+        "rotY": 179.970764,
+        "rotZ": -1.13725342E-07,
+        "scaleX": 1.222341,
+        "scaleY": 1.0,
+        "scaleZ": 1.222341
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713270366,
+        "g": 0.713270366,
+        "b": 0.713270366
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        822,
+        822,
+        822,
+        513,
+        826,
+        826,
+        826,
+        815,
+        815,
+        815,
+        512,
+        512,
+        512,
+        408,
+        408,
+        408,
+        803,
+        803,
+        803,
+        810,
+        810,
+        810,
+        807,
+        807,
+        515,
+        515,
+        515,
+        523,
+        523,
+        523,
+        510,
+        510,
+        510,
+        521,
+        521,
+        521,
+        529,
+        529,
+        529,
+        807
+      ],
+      "CustomDeck": {
+        "8": {
+          "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+          "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        },
+        "5": {
+          "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+          "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        },
+        "4": {
+          "FaceURL": "https://farm2.staticflickr.com/1706/24309714669_f98bb708d2_o_d.jpg",
+          "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "6fe91c",
+          "Name": "Card",
+          "Transform": {
+            "posX": -10.2524147,
+            "posY": 0.9735929,
+            "posZ": 8.890937,
+            "rotX": 0.000106722095,
+            "rotY": 179.970764,
+            "rotZ": -0.0006595828,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 822,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "5a9020",
+          "Name": "Card",
+          "Transform": {
+            "posX": -10.2524147,
+            "posY": 1.01159072,
+            "posZ": 8.890937,
+            "rotX": 0.0008723473,
+            "rotY": 179.970764,
+            "rotZ": -0.005195432,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 822,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "2b2066",
+          "Name": "Card",
+          "Transform": {
+            "posX": -10.2524147,
+            "posY": 1.048704,
+            "posZ": 8.890937,
+            "rotX": 0.000265940645,
+            "rotY": 179.970764,
+            "rotZ": -0.00164527982,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 822,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "bd92a0",
+          "Name": "Card",
+          "Transform": {
+            "posX": -10.0033922,
+            "posY": 0.9736048,
+            "posZ": 4.620289,
+            "rotX": -1.50208962E-07,
+            "rotY": 179.970779,
+            "rotZ": 2.663735E-08,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 513,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "3e9806",
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.91623,
+            "posY": 0.9735929,
+            "posZ": 8.74772,
+            "rotX": 0.000106716077,
+            "rotY": 179.970779,
+            "rotZ": -0.0006595281,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 826,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "d4549a",
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.91623,
+            "posY": 1.01159072,
+            "posZ": 8.74772,
+            "rotX": 0.0008725197,
+            "rotY": 179.970779,
+            "rotZ": -0.005195167,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 826,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "304cb1",
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.91623,
+            "posY": 1.05106235,
+            "posZ": 8.74772,
+            "rotX": 0.0008025075,
+            "rotY": 179.970779,
+            "rotZ": -0.0009863831,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 826,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "9407f3",
+          "Name": "Card",
+          "Transform": {
+            "posX": -3.046028,
+            "posY": 0.9735542,
+            "posZ": 8.686252,
+            "rotX": 0.0004183323,
+            "rotY": 179.970764,
+            "rotZ": -0.00274635945,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 815,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "d9c7bb",
+          "Name": "Card",
+          "Transform": {
+            "posX": -3.04602718,
+            "posY": 1.01141977,
+            "posZ": 8.686252,
+            "rotX": 0.00269075227,
+            "rotY": 179.970764,
+            "rotZ": 0.00237745815,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 815,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "589996",
+          "Name": "Card",
+          "Transform": {
+            "posX": -3.04602718,
+            "posY": 1.04312158,
+            "posZ": 8.686252,
+            "rotX": -0.00164255372,
+            "rotY": 179.970764,
+            "rotZ": -0.00142625452,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 815,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "25d97a",
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.84032536,
+            "posY": 0.9735929,
+            "posZ": 4.76071453,
+            "rotX": 0.000106709907,
+            "rotY": 179.970779,
+            "rotZ": -0.000659554,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 512,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "f37634",
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.84032536,
+            "posY": 1.01159072,
+            "posZ": 4.76071453,
+            "rotX": 0.0008724478,
+            "rotY": 179.970779,
+            "rotZ": -0.00519522,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 512,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "3cbfd7",
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.84032536,
+            "posY": 1.05319571,
+            "posZ": 4.76071453,
+            "rotX": 0.0001365725,
+            "rotY": 179.970779,
+            "rotZ": -0.0006466883,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 512,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "003b26",
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.919677,
+            "posY": 0.9736048,
+            "posZ": 4.1212697,
+            "rotX": -1.42263925E-08,
+            "rotY": 179.978668,
+            "rotZ": -4.75227235E-09,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 408,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "https://farm2.staticflickr.com/1706/24309714669_f98bb708d2_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "8fea8b",
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.919677,
+            "posY": 1.000372,
+            "posZ": 4.1212697,
+            "rotX": 359.84,
+            "rotY": 179.978363,
+            "rotZ": 0.223196968,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 408,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "https://farm2.staticflickr.com/1706/24309714669_f98bb708d2_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "a0361b",
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.91968,
+            "posY": 1.04232657,
+            "posZ": 4.1212697,
+            "rotX": 0.000396915566,
+            "rotY": 179.978653,
+            "rotZ": -0.00242649461,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 408,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "https://farm2.staticflickr.com/1706/24309714669_f98bb708d2_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "a9fdda",
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.85400486,
+            "posY": 0.973594546,
+            "posZ": -0.259225935,
+            "rotX": 9.25482746E-05,
+            "rotY": 179.9708,
+            "rotZ": -0.000566954,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 803,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "487def",
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.85400462,
+            "posY": 1.011594,
+            "posZ": -0.2592259,
+            "rotX": 0.00165744429,
+            "rotY": 179.9708,
+            "rotZ": 359.9939,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 803,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "239965",
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.85400462,
+            "posY": 1.05362988,
+            "posZ": -0.2592259,
+            "rotX": 0.000155193979,
+            "rotY": 179.9708,
+            "rotZ": -0.000959518831,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 803,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "64b4c2",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.8038885,
+            "posY": 0.9735963,
+            "posZ": 8.594152,
+            "rotX": 7.95825763E-05,
+            "rotY": 179.970764,
+            "rotZ": -0.000475294131,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 810,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "886ab6",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.8038888,
+            "posY": 1.01161289,
+            "posZ": 8.594152,
+            "rotX": -0.000241002519,
+            "rotY": 179.970764,
+            "rotZ": -0.004299641,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 810,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "09d18b",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.8038889,
+            "posY": 1.021999,
+            "posZ": 8.594152,
+            "rotX": 8.627079E-06,
+            "rotY": 179.970764,
+            "rotZ": 1.18392909,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 810,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "ef4d1a",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.649312854,
+            "posY": 0.9735716,
+            "posZ": 4.41296244,
+            "rotX": 0.0002734469,
+            "rotY": 179.970581,
+            "rotZ": -0.00179992581,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 807,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "de31b2",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.6493135,
+            "posY": 1.01151776,
+            "posZ": 4.41296244,
+            "rotX": 0.00487571955,
+            "rotY": 179.970581,
+            "rotZ": -0.00244531245,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 807,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "450445",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.935868,
+            "posY": 0.973601758,
+            "posZ": 0.240430683,
+            "rotX": 2.981801E-05,
+            "rotY": 179.967941,
+            "rotZ": -0.000171542168,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 515,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "407cbe",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.935868263,
+            "posY": 1.01736939,
+            "posZ": 0.240430534,
+            "rotX": -0.00032760654,
+            "rotY": 179.967941,
+            "rotZ": -0.00212664,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 515,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "450445",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.935868144,
+            "posY": 1.05105042,
+            "posZ": 0.240430787,
+            "rotX": 359.9922,
+            "rotY": 179.967941,
+            "rotZ": -8.609908E-05,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 515,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "20e725",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.7485008,
+            "posY": 0.973594546,
+            "posZ": -3.7222352,
+            "rotX": 9.25547647E-05,
+            "rotY": 179.970917,
+            "rotZ": -0.0005669837,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 523,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "0fcb0d",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.7485011,
+            "posY": 1.011594,
+            "posZ": -3.7222352,
+            "rotX": 0.00165745174,
+            "rotY": 179.970917,
+            "rotZ": 359.9939,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 523,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "20e725",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.7484987,
+            "posY": 1.04217148,
+            "posZ": -3.7222352,
+            "rotX": 0.000261431473,
+            "rotY": 179.970917,
+            "rotZ": -0.00161735993,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 523,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "ee14a9",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.863736331,
+            "posY": 0.973600745,
+            "posZ": -7.6132803,
+            "rotX": 3.66072454E-05,
+            "rotY": 179.973,
+            "rotZ": -0.000224721676,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 510,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "635f05",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.8637366,
+            "posY": 1.01736546,
+            "posZ": -7.6132803,
+            "rotX": 0.000578369771,
+            "rotY": 179.973,
+            "rotZ": -0.00228439,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 510,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "ee14a9",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.863736451,
+            "posY": 1.04790211,
+            "posZ": -7.6132803,
+            "rotX": 0.000148437277,
+            "rotY": 179.973,
+            "rotZ": -0.000924979744,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 510,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "d44853",
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.821604,
+            "posY": 0.973623335,
+            "posZ": 8.409214,
+            "rotX": 5.50099649E-05,
+            "rotY": 179.999527,
+            "rotZ": 0.000714269234,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 521,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "c9325f",
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.821604,
+            "posY": 1.00080729,
+            "posZ": 8.409214,
+            "rotX": 359.6667,
+            "rotY": 179.999527,
+            "rotZ": 1.86145535E-05,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 521,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "9efd86",
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.8216,
+            "posY": 1.04232669,
+            "posZ": 8.409214,
+            "rotX": 0.000396359363,
+            "rotY": 179.999512,
+            "rotZ": -0.00242423173,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 521,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "2cd91e",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.8814762,
+            "posY": 0.973605335,
+            "posZ": -11.5245361,
+            "rotX": -3.03086358E-06,
+            "rotY": 179.999435,
+            "rotZ": 2.70019282E-05,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 529,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "f212c8",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.881476343,
+            "posY": 1.00079441,
+            "posZ": -11.5245361,
+            "rotX": 1.68249026E-05,
+            "rotY": 179.999435,
+            "rotZ": 0.464415044,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 529,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "b62cf1",
+          "Name": "Card",
+          "Transform": {
+            "posX": -10.9305925,
+            "posY": 1.40010762,
+            "posZ": 9.179722,
+            "rotX": 5.601971E-05,
+            "rotY": 179.970764,
+            "rotZ": -0.000713484769,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 529,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://farm2.staticflickr.com/1615/24651828816_5d76c95807_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "18666a",
+          "Name": "Card",
+          "Transform": {
+            "posX": -10.1999092,
+            "posY": 1.40546858,
+            "posZ": 8.98953152,
+            "rotX": 0.0002856186,
+            "rotY": 179.970779,
+            "rotZ": -0.000341901934,
+            "scaleX": 1.222341,
+            "scaleY": 1.0,
+            "scaleZ": 1.222341
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.713270366,
+            "g": 0.713270366,
+            "b": 0.713270366
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 807,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "8": {
+              "FaceURL": "https://farm2.staticflickr.com/1553/24560246932_25b5d0bde7_o_d.jpg",
+              "BackURL": "https://farm2.staticflickr.com/1523/24381457900_46dcd737eb_o_d.jpg",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ]
+    }
+  ]
+}
