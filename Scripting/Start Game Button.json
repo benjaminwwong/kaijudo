@@ -17,12 +17,12 @@
   "XmlUI": "",
   "ObjectStates": [
     {
-      "GUID": "036742",
+      "GUID": "0a725d",
       "Name": "Checker_red",
       "Transform": {
-        "posX": -49.89243,
-        "posY": 0.9652252,
-        "posZ": 0.881914258,
+        "posX": 48.4213066,
+        "posY": 0.9612198,
+        "posZ": 0.204591036,
         "rotX": -6.58729036E-08,
         "rotY": 270.0,
         "rotZ": 1.827905E-06,
@@ -30,7 +30,7 @@
         "scaleY": 1.0,
         "scaleZ": 1.0
       },
-      "Nickname": "Start Game Button",
+      "Nickname": "Summon Button",
       "Description": "",
       "GMNotes": "",
       "AltLookAngle": {
@@ -57,7 +57,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "LuaScript": "\n\nfunction onSpawn()\n\n    --[[ Get the GUIDs for each player's zone\n\n    P1_ZONE = getObjectFromGUID(\"1bf4cb\")\n    P2_ZONE = getObjectFromGUID(\"63409d\")\n    ]]--\n\n    P1_ZONE = spawnObject({\n        type = \"ScriptingTrigger\",\n        position = {0.00, 3.51, -13.00},\n        scale = {88.00, 5.10, 26.00},\n        sound = false\n    })\n\n    P2_ZONE = spawnObject({\n        type = \"ScriptingTrigger\",\n        position = {0.00, 3.51, 13.00},\n        scale = {88.00, 5.10, 26.00},\n        sound = false\n    })\nend\n\n\nfunction startGame()\n\n    -- Get all of the cards on either side of the table\n\n    local deck1 = P1_ZONE.getObjects()[1]\n    local deck2 = P2_ZONE.getObjects()[1]\n\n\n    -- Add all of the first player's cards from the table\n\n    for i, obj in ipairs(P1_ZONE.getObjects()) do\n        if i ~= 1 and (obj.type == \"Deck\" or obj.type == \"Card\") then\r\n            deck1 = obj.putObject(deck1)\n        end\n    end\n\n\n    -- Add all of the second player's cards from the table\n\n    for i, obj in ipairs(P2_ZONE.getObjects()) do\n        if i ~= 1 and (obj.type == \"Deck\" or obj.type == \"Card\") then\n            deck2 = obj.putObject(deck2)\n        end\n    end\n\n\n    -- Add all of the first player's cards from their hand\n\n    for i, obj in ipairs(Player[\"Blue\"].getHandObjects()) do\n        deck1 = obj.putObject(deck1)\n    end\n\n\n    -- Add all of the second player's cards from their hand\n\n    for i, obj in ipairs(Player[\"Orange\"].getHandObjects()) do\n        deck2 = obj.putObject(deck2)\n    end\n\n\n    -- Shuffle each player's deck\n\n    deck1.randomize()\n    deck2.randomize()\n    \n\n    -- Lay out the cards for each player\n\n    deck1.setPosition(Vector(-12, 1, -8))\n    deck1.setRotation(Vector(0, 180, 180))\n\n    deck2.setPosition(Vector(-12, 1, 8))\n    deck2.setRotation(Vector(0, 0, 180))\n\n    for i = 1,5 do\n        deck1.takeObject({position={-9 + 3*i, 1, -8}})\n        deck2.takeObject({position={-9 + 3*i, 1, 8}})\n    end\n\n\n    -- Deal out five cards for each player\n\n    Wait.frames(\r\n        function()\r\n            deck1.deal(5, \"Blue\")\n            deck2.deal(5, \"Orange\")\r\n        end,\r\n        30\r\n    )\nend",
+      "LuaScript": "\n\nfunction onSpawn()\n\n    -- Create zones for the two players\n\n    P1_ZONE = spawnObject({\n        type = \"ScriptingTrigger\",\n        position = {0.00, 3.51, -13.00},\n        scale = {88.00, 5.10, 26.00},\n        sound = false\n    })\n\n    P2_ZONE = spawnObject({\n        type = \"ScriptingTrigger\",\n        position = {0.00, 3.51, 13.00},\n        scale = {88.00, 5.10, 26.00},\n        sound = false\n    })\nend\n\n\nfunction startGame()\n\n    -- Find a card to start the deck\n\n    for i, obj in ipairs(P1_ZONE.getObjects()) do\n        if obj.type == \"Deck\" or obj.type == \"Card\" then\n            deck1 = obj\n            break\n        end\n    end\n\n    for i, obj in ipairs(P2_ZONE.getObjects()) do\n        if obj.type == \"Deck\" or obj.type == \"Card\" then\n            deck2 = obj\n            break\n        end\n    end\n\n\n    -- Add all of the first player's cards from the table\n\n    for i, obj in ipairs(P1_ZONE.getObjects()) do\n        if obj ~= deck1 and (obj.type == \"Deck\" or obj.type == \"Card\") then\r\n            deck1 = obj.putObject(deck1)\n        end\n    end\n\n\n    -- Add all of the second player's cards from the table\n\n    for i, obj in ipairs(P2_ZONE.getObjects()) do\n        if obj ~= deck2 and (obj.type == \"Deck\" or obj.type == \"Card\") then\n            deck2 = obj.putObject(deck2)\n        end\n    end\n\n\n    -- Add all of the first player's cards from their hand\n\n    for i, obj in ipairs(Player[\"Blue\"].getHandObjects()) do\n        deck1 = obj.putObject(deck1)\n    end\n\n\n    -- Add all of the second player's cards from their hand\n\n    for i, obj in ipairs(Player[\"Orange\"].getHandObjects()) do\n        deck2 = obj.putObject(deck2)\n    end\n\n\n    -- Shuffle each player's deck\n\n    deck1.randomize()\n    deck2.randomize()\n    \n\n    -- Lay out the cards for each player\n\n    deck1.setPosition(Vector(-12, 1, -8))\n    deck1.setRotation(Vector(0, 180, 180))\n\n    deck2.setPosition(Vector(-12, 1, 8))\n    deck2.setRotation(Vector(0, 0, 180))\n\n    for i = 1,5 do\n        deck1.takeObject({position={-9 + 3*i, 1, -8}})\n        deck2.takeObject({position={-9 + 3*i, 1, 8}})\n    end\n\n\n    -- Deal out five cards for each player\n\n    Wait.frames(\r\n        function()\r\n            deck1.deal(5, \"Blue\")\n            deck2.deal(5, \"Orange\")\r\n        end,\r\n        30\r\n    )\nend",
       "LuaScriptState": "",
       "XmlUI": "<Button\n    onClick = \"startGame\"\n    position = \"0 0 -30\"\n    width = \"1200\"\n    height = \"400\"\n    fontsize = \"144\">\n    \n    Start Game\n\n</Button>"
     }
