@@ -1,0 +1,65 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "f98120",
+      "Name": "Checker_red",
+      "Transform": {
+        "posX": 49.6244965,
+        "posY": 0.9612173,
+        "posZ": 1.367837,
+        "rotX": -6.337709E-07,
+        "rotY": 89.99999,
+        "rotZ": 6.457799E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Clear Board",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "function clearBoard()\n    for i, obj in ipairs(getObjects()) do\n        if obj.type == \"Deck\" or obj.type == \"Card\" then\n            obj.destruct()\n        end\n    end\nend",
+      "LuaScriptState": "",
+      "XmlUI": "<Button\n    onClick = \"clearBoard\"\n    position = \"0 0 -30\"\n    width = \"1200\"\n    height = \"400\"\n    fontsize = \"144\">\n\n    Clear Board\n\n</Button>"
+    }
+  ]
+}
